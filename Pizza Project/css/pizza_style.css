@@ -1,0 +1,130 @@
+/*================================
+       Page Layout
+=================================*/
+#page {
+	background-image:  url("../img/pizza.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+
+h1 {
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	font-size: 65px;
+	color: white;
+	margin: 50px;
+	padding: 0px;
+	text-shadow: 1.5px 1.5px 5px red, 1px 1px 5px #000;
+	
+}
+
+div {
+	display: block;
+}
+
+
+
+
+
+#menuBG {
+	margin: 0% auto;
+    width: 650px;
+    border-radius: 25px;
+	padding: 1px 0px;
+	opacity: 1;
+}
+
+#frmMenu {
+	margin: 0% auto;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 25px;
+}
+
+.menu:nth-child(odd) {
+    background-color: rgba(234, 235, 237, 0.9);
+    border-radius: 25px;
+}
+
+.menu:nth-child(even) {
+    background-color: rgba(234, 235, 237, 0.9);
+    border-radius: 25px;
+}
+
+.menu {
+    flex: 1 150px;
+    min-width: 0;
+    border: 2px solid red;
+    box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+    padding: 0 0 10px 0;
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+}
+
+.controls {
+	text-align: center;
+	margin: 50px;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	text-transform: uppercase;
+	font-size: 65px;
+	color: white;
+	margin: 50px;
+	padding: 0px;
+	text-shadow: 1.5px 1.5px 5px red, 1px 1px 5px #000;
+	
+}
+	
+	
+	
+
+
+.menu h3 {
+    color: #fff;
+    padding: 0 0 0 60px;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 25px 25px 0 0;
+    text-shadow: 1.5px 1.5px 5px red, 1px 1px 5px #000;
+}
+
+
+
+
+
+table {
+    margin: 15px auto;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(244, 245, 247, 0.9);
+    border: 2px solid red;
+    box-shadow: 0 0 0 3px rgba(255,255,255, .8);
+    border-radius: 25px;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
